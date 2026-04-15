@@ -393,7 +393,7 @@ export default function Home() {
               <div className="rounded-3xl overflow-hidden shadow-2xl relative group aspect-[4/5] img-zoom">
                 <img
                   src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800&auto=format&fit=crop&q=85"
-                  alt="Dr. Sarah Jenkins"
+                  alt="Dr. Miller Jenkins"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -401,7 +401,7 @@ export default function Home() {
 
             <div className="lg:w-7/12 reveal-left">
               <span className="inline-block text-xs font-bold tracking-widest text-primary uppercase mb-3 bg-primary/10 px-3 py-1 rounded-full">Meet Your Doctor</span>
-              <h2 className="text-3xl md:text-5xl font-serif font-bold mb-2 mt-2">Dr. Sarah Jenkins, DDS</h2>
+              <h2 className="text-3xl md:text-5xl font-serif font-bold mb-2 mt-2">Dr. Miller Jenkins, DDS</h2>
               <p className="text-lg text-primary italic mb-6">Founder & Lead Dentist — 15 Years Experience</p>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
                 Dr. Jenkins completed her degree at UCSF School of Dentistry and has practiced in San Francisco for over 15 years. Specializing in cosmetic and restorative dentistry, she combines artistry with clinical precision to deliver results that truly change lives.
@@ -433,7 +433,7 @@ export default function Home() {
             <HeartPulse className="w-5 h-5 shrink-0" />
             <span className="font-semibold text-base">Dental Emergency? We're here.</span>
           </div>
-          <a href="tel:4155559999" className="flex items-center gap-2 font-bold text-red-700 hover:text-red-800 transition-colors text-lg">
+          <a href="tel:0001234567" className="flex items-center gap-2 font-bold text-red-700 hover:text-red-800 transition-colors text-lg">
             <Phone className="w-5 h-5" />
             (000) 123-4567
           </a>

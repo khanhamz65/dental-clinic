@@ -129,7 +129,7 @@ export function Navbar() {
             {/* Desktop CTA */}
             <div className="hidden md:flex items-center gap-3">
               <a
-                href="tel:4155550123"
+                href="tel:0001234567"
                 className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors font-medium"
               >
                 <Phone className="w-4 h-4" />
@@ -178,7 +178,7 @@ export function Navbar() {
               ))}
               <div className="mt-3 pt-3 border-t border-border flex flex-col gap-3">
                 <a
-                  href="tel:4155550123"
+                  href="tel:0001234567"
                   className="flex items-center gap-2 px-4 py-2 text-sm text-muted-foreground"
                 >
                   <Phone className="w-4 h-4 text-primary" />
@@ -316,7 +316,7 @@ export function Footer() {
                 </li>
                 <li>
                   <a
-                    href="tel:4155550123"
+                    href="tel:0001234567"
                     className="flex items-center gap-3 hover:text-white transition-colors"
                   >
                     <Phone className="w-4 h-4 text-primary shrink-0" />

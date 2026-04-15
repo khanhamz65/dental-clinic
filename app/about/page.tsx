@@ -40,7 +40,7 @@ function AnimatedCounter({ end, suffix = "", duration = 2000 }: { end: number; s
 
 const TEAM = [
   {
-    name: "Dr. Sarah Jenkins",
+    name: "Dr. Miller Jenkins",
     role: "Lead Dentist & Founder",
     bio: "Specializing in cosmetic dentistry and full mouth reconstruction. 15+ years in San Francisco.",
     img: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=500&auto=format&fit=crop&q=80",
@@ -115,7 +115,7 @@ export default function About() {
               <div className="rounded-3xl overflow-hidden shadow-2xl relative group aspect-[3/4] w-full img-zoom">
                 <img
                   src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=900&auto=format&fit=crop&q=85"
-                  alt="Dr. Sarah Jenkins"
+                  alt="Dr. Miller Jenkins"
                   className="w-full h-full object-cover object-top"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
@@ -137,7 +137,7 @@ export default function About() {
                   <p className="font-semibold text-foreground text-xl font-serif">
                     "Excellence isn't a goal — it's a habit."
                   </p>
-                  <p className="text-base text-primary mt-2 font-medium">— Dr. Sarah Jenkins, Founder & Lead Dentist</p>
+                  <p className="text-base text-primary mt-2 font-medium">— Dr. Miller Jenkins, Founder & Lead Dentist</p>
                 </div>
               </div>
             </div>
